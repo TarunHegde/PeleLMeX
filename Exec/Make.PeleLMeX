@@ -1,6 +1,6 @@
 PELE_HOME      ?= ../
 AMREX_HYDRO_HOME   ?= $(abspath $(lastword ${PELE_HOME}/Submodules/AMReX-Hydro))
-PELE_PHYSICS_HOME  ?= $(abspath $(lastword ${PELE_HOME}/Submodules/PelePhysics))
+PELE_PHYSICS_HOME  ?= $(abspath $(lastword ${PELE_HOME}/../PelePhysics))
 AMREX_HOME         ?= $(abspath $(lastword ${PELE_PHYSICS_HOME}/Submodules/amrex))
 SUNDIALS_HOME      ?= $(abspath $(lastword ${PELE_PHYSICS_HOME}/Submodules/sundials))
 
