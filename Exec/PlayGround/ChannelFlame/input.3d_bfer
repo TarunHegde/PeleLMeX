@@ -7,8 +7,8 @@ geometry.prob_hi     = 0.008 0.008 0.032        # x_hi y_hi (z_hi)
 # >>>>>>>>>>>>>  BC FLAGS <<<<<<<<<<<<<<<<
 # Interior, Inflow, Outflow, Symmetry,
 # SlipWallAdiab, NoSlipWallAdiab, SlipWallIsotherm, NoSlipWallIsotherm
-peleLM.lo_bc = Interior Interior Inflow
-peleLM.hi_bc = Interior Interior Outflow
+peleLM.lo_bc = NoSlipWallAdiab NoSlipWallAdiab Inflow
+peleLM.hi_bc = NoSlipWallAdiab NoSlipWallAdiab Outflow
 
 #-------------------------AMR CONTROL----------------------------
 amr.n_cell          = 16 16 64           # Level 0 number of cells in each direction
