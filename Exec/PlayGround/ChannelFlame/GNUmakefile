@@ -2,7 +2,7 @@
 DIM = 3
 COMP = llvm
 PRECISION = DOUBLE
-USE_EB = FALSE
+USE_EB = TRUE
 USE_HYPRE = FALSE
 
 # Profiling
